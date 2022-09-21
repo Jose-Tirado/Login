@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import ERforS from '../views/ERforS.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -13,8 +13,8 @@ const routes = [
   },
   {
     path: '/',
-    name: 'ERforS',
-    component: ERforS
+    name: 'Login',
+    component: Login
 
   },
   

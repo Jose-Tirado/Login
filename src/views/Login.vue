@@ -81,13 +81,10 @@
 
 
 <script>
-/*import ERforS from '@/components/ERforS.vue'*/
 import axios from 'axios'
 export default {
   name: 'App',
-  /*components: {
-    ERforS
-  },*/
+
    data () {
     return  {
       MostrarContraseña: false,
